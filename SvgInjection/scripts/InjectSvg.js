@@ -73,6 +73,3 @@ class SVGINJECT {
         image.remove();
     }
 }
-
-const images = document.querySelectorAll("[load-as='svg']");
-new SVGINJECT(images)
