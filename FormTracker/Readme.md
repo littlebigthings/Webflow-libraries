@@ -9,15 +9,15 @@ A library use to run you custom function after successful form submission on web
 
 ## Installation
 
-Add the below script into the </body> tag of you webflow page.
+Add the below script into the `</body>` tag of you webflow page.
 
 ```HTML
 <script src="https://cdn.jsdelivr.net/gh/littlebigthings/Webflowlibraries@master/scripts/formSubmissionTrigger.js"></script>
 ```
 
 ### Now add [data-observe="form"]  into the form element of webflow.
-![Alt text](https://cdn.jsdelivr.net/gh/littlebigthings/Webflowlibraries@master/Assets/image.png "Attribute")
-![Alt text](https://cdn.jsdelivr.net/gh/littlebigthings/Webflowlibraries@master/Assets/image%20(1).png "Element")
+![Alt text](https://cdn.jsdelivr.net/gh/littlebigthings/Webflowlibraries@master/FormTracker/Assets/image.png "Attribute")
+![Alt text](https://cdn.jsdelivr.net/gh/littlebigthings/Webflowlibraries@master/FormTracker/Assets/image%20(1).png "Element")
 
 ## USE:-
 Define your form/forms array in a variable and define your function where you want to recieve form data and run operations.
