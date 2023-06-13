@@ -12,7 +12,7 @@ A library use to run you custom function after successful form submission on web
 Add the below script into the `</body>` tag of you webflow page.
 
 ```HTML
-<script src="https://cdn.jsdelivr.net/gh/littlebigthings/Webflowlibraries@master/scripts/formSubmissionTrigger.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/littlebigthings/Webflowlibraries@master/FormTracker/scripts/formSubmissionTrigger.js"></script>
 ```
 
 ### Now add [data-observe="form"]  into the form element of webflow.
