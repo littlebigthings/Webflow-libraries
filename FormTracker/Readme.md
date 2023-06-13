@@ -22,29 +22,41 @@ Add the below script into the `</body>` tag of you webflow page.
 ## USE:-
 Define your form/forms array in a variable and define your function where you want to recieve form data and run operations.
 
-### You can use a single form element or array of elements.
+### You can use a single form element or array of elements with the custom functions which you want to execute on them.
 ```javascript
-let formElement = document.querySelector("[data-observe='form']");
+const formArray= [
+    {
+        formElement:document.querySelector("[data-observe='form']"),
+        callback:callbackOne,
+    },
+    {
+        formElement:document.querySelector("[data-observe='analytics']"),
+        callback:callbackTwo,
+    }
+]
 ```
 
 ### Define your custom code
 
 ```javascript
-function logForm(formData) {
+function callbackOne(formData){
     //your own custom logic ⚙️
     
     //form data 👇🏽
-    console.log(formData)
+    console.log(formData, "one")
+}
+
+function callbackTwo(formData){
+    //your own custom logic ⚙️
+    
+    //form data 👇🏽
+    console.log(formData, "two")
 }
 ```
 
 ### Initiallize library
 ```javascript
-    new TRIGGERSUBMISSION({
-        formElement:formElement,
-        callback:logForm
-    });
+formArray.forEach(formObj =>{
+    new TRIGGERSUBMISSION(formObj)
+})
 ```
-
-## License
-MIT
