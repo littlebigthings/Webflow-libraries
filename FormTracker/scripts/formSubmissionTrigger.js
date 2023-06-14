@@ -64,4 +64,4 @@ class TRIGGERSUBMISSION {
     }
 }
 
-module.exports = TRIGGERSUBMISSION;
+export default TRIGGERSUBMISSION;
