@@ -63,3 +63,5 @@ class TRIGGERSUBMISSION {
         })
     }
 }
+
+module.exports = TRIGGERSUBMISSION;
