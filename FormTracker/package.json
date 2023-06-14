@@ -1,0 +1,19 @@
+{
+  "name": "@himanshu-lbt-dev/formtracker",
+  "version": "1.0.0",
+  "description": "This is a webflow library to get the form data after successful form submission.",
+  "main": "/scripts/formSubmission.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/littlebigthings/Webflowlibraries.git#master"
+  },
+  "author": "lilbigthings",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/littlebigthings/Webflowlibraries/issues"
+  },
+  "homepage": "https://github.com/littlebigthings/Webflowlibraries/tree/master#readme"
+}
