@@ -64,4 +64,11 @@ class TRIGGERSUBMISSION {
     }
 }
 
-export default TRIGGERSUBMISSION;
+// Exporting the greet function
+if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
+    // Export for Node.js
+    module.exports = TRIGGERSUBMISSION;
+  } else {
+    // Export for browser
+    window.TRIGGERSUBMISSION = TRIGGERSUBMISSION;
+  }
