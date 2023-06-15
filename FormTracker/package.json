@@ -1,8 +1,9 @@
 {
   "name": "@himanshu-lbt-dev/formtracker",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "This is a webflow library to get the form data after successful form submission.",
-  "main": "/scripts/formSubmission.js",
+  "main": "scripts/formSubmission.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
