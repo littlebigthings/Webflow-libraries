@@ -35,7 +35,7 @@ class SVGINJECT {
         if (this.imageArray.length > 0) {
             this.imageArray.forEach(async (image) => {
                 let imageSrc = image.getAttribute("src");
-                if (imageSrc.length > 0) {
+                if (imageSrc.endsWith(".svg")&&imageSrc.length > 0) {
                     let imageCode = await this.loadImgCode(imageSrc);
                     if (imageCode != undefined) {
                         this.appendImage(imageCode, image)
