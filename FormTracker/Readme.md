@@ -17,7 +17,7 @@ Add the below script into the **`</body>`** tag of you webflow page.
 
 ```HTML
 
-<script  src="https://cdn.jsdelivr.net/gh/littlebigthings/Webflowlibraries@master/FormTracker/scripts/formSubmissionTrigger.js"></script>
+<script  src="https://cdn.jsdelivr.net/gh/littlebigthings/Webflowlibraries@master/FormTracker/scripts/Formsubmissiontrigger.js"></script>
 
 ```
 
