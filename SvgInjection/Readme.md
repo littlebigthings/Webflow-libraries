@@ -1,7 +1,7 @@
 # SVG Injection
 
 ### Add the below script in `<body>` tag
-    <script src="https://cdn.jsdelivr.net/gh/littlebigthings/Webflowlibraries@master/SvgInjection/scripts/InjectSvg.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/littlebigthings/Webflowlibraries@v0.2.0/SvgInjection/scripts/InjectSvg.js"></script>
 
 ## How to use
 
